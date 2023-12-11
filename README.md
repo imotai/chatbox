@@ -24,60 +24,72 @@
 </a>
 </p>
 
-<table>
-<tr>
-<td>
-<img src='./doc/snapshot2.png' />
-</td>
-<td>
-<img src='./doc/snapshot4.png' />
-</td>
-</tr>
-</table>
-
 ## Download
 
-<table>
+<table style="width: 100%;text-align:center;">
   <tr>
-    <td style="text-align:center"><b>Windows</b></td>
-    <td colspan="2" style="text-align:center"><b>MacOS</b></td>
-    <td style="text-align:center"><b>Linux</b></td>
+    <td style="text-align:center">
+        <img src='./doc/windows.png' style="height:14px; width: 14px" />
+        <b>Windows</b>
+    </td>
+    <td colspan="2" style="text-align:center">
+        <img src='./doc/mac.png' style="height:15px; width: 15px" />
+        <b>MacOS</b>
+    </td>
+    <td style="text-align:center">
+        <img src='./doc/linux.png' style="height:14px; width: 14px" />
+        <b>Linux</b>
+    </td>
   </tr>
   <tr style="text-align: center">
     <td>
       <a href='https://chatboxai.app/?c=download-windows'>
-        <img src='./doc/windows.png' style="height:14px; width: 14px" />
-        <b>Setup.exe</b>
+        <b>⏬ Setup.exe</b>
       </a>
     </td>
     <td>
       <a href='https://chatboxai.app/?c=download-mac-intel'>
-        <img src='./doc/mac.png' style="height:15px; width: 15px" />
-        <b>Intel</b>
+        <b>⏬ Intel</b>
       </a>
     </td>
     <td>
       <a href='https://chatboxai.app/?c=download-mac-aarch'>
-        <img src='./doc/mac.png' style="height:15px; width: 15px" />
-        <b>M1/M2</b>
+        <b>⏬ M1/M2</b>
       </a>
     </td>
     <td>
       <a href='https://chatboxai.app/?c=download-linux'>
-        <img src='./doc/linux.png' style="height:14px; width: 14px" />
-        <b>AppImage</b>
+        <b>⏬ AppImage</b>
       </a>
     </td>
   </tr>
 </table>
 
-Visit the **[GitHub Releases](https://github.com/Bin-Huang/chatbox/releases)** to download the latest version or any previous release.
+_Visit the [GitHub Releases](https://github.com/Bin-Huang/chatbox/releases) to download the latest version or any previous release._
 
-## Features
+## 🌟 Features
+
+<img src="./dec/../doc/demo_desktop_1.jpg" alt="App Screenshot" style="box-shadow: 2px 2px 10px rgba(0,0,0,0.1); border: 1px solid #ddd; border-radius: 8px; width: 700px" />
+
+<img src="./dec/../doc/demo_desktop_2.jpg" alt="App Screenshot" style="box-shadow: 2px 2px 10px rgba(0,0,0,0.1); border: 1px solid #ddd; border-radius: 8px; width: 700px" />
+
+<img src="./dec/../doc/demo_desktop_3.jpg" alt="App Screenshot" style="box-shadow: 2px 2px 10px rgba(0,0,0,0.1); border: 1px solid #ddd; border-radius: 8px; width: 700px" />
+
+<!-- <table>
+<tr>
+<td>
+<img src="./dec/../doc/demo_mobile_1.png" alt="App Screenshot" style="box-shadow: 2px 2px 10px rgba(0,0,0,0.1); border: 1px solid #ddd; border-radius: 8px; height: 300px" />
+</td>
+<td>
+<img src="./dec/../doc/demo_mobile_2.png" alt="App Screenshot" style="box-shadow: 2px 2px 10px rgba(0,0,0,0.1); border: 1px solid #ddd; border-radius: 8px; height: 300px" />
+</td>
+</tr>
+</table> -->
 
 -   Enhanced prompting capability
 -   Data is stored locally and will not be lost
 -   Supports multiple cutting-edge LLM models and providers, such as OpenAI, Azure OpenAI and ChatGLM-6B
+-   Supports Dall-E-3, real-time image generation
 -   Keyboard shortcuts for improved productivity
 -   Markdown & Code Highlighting
 -   Prompt Library, Message Quoting
@@ -85,7 +97,9 @@ Visit the **[GitHub Releases](https://github.com/Bin-Huang/chatbox/releases)** t
 -   Ergonomic UI design & Night Mode
 -   Suitable for team collaboration, supporting the sharing of OpenAI API resources within the team. View [tutorial](./team-sharing/README.md)
 -   Providing installation packages, no deployment required
--   Free and open source
+-   Cross-platform, available on Windows, Mac, Linux
+-   Web version, available on any device with a browser
+-   More...
 
 ## FAQ
 
@@ -128,10 +142,13 @@ At first, I didn't know that it would be so popular. I listened to the feedback 
 -   [x] Claude
 -   [x] Temperature Setting
 -   [x] Conversation Special Settings
--   [x] Custom Model
+-   [x] OpenAI Custom Model
+-   [x] Dall-E-3
+-   [x] Message Search
+-   [x] Data Export
+-   [ ] Mobile(Android, iOS)
 -   [ ] Talk with files
 -   [ ] Talk with URLs
--   [ ] Mobile(Android, iOS)
 -   [ ] Cross-device synchronization
 -   [ ] threads(like Slack)
 -   More...
